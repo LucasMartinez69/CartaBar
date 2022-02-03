@@ -34,6 +34,25 @@
     margin-top: 2vh;
 }
 
-.titleCard p {
+.welcomeTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcomeTitle h1 {
     color: white;
+    font-size: 3rem;
+    margin: 10px auto;
+}
+
+
+.buttonsCard {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonsCard h1 {
+    color: white;
+    font-size: 3rem;
 }
